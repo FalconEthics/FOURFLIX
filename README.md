@@ -19,13 +19,13 @@
 ##### RAJ DEBNATH (SEO Specialist)
 
 ##### Here's some of the key features of my website:
-![This is an image](/preview/Home_Page.png)
+![This is an image](preview/Home_Page.png)
 ##### This the home landing page that will appear at first when viewer enters the link. This will contain a few sliders where the most featured contents can be displayed by the admin and viewers will also find all the setting, profile, subscription, search button and etc. interactive things.
-![This is an image](/preview/Featured_Page.png)
+![This is an image](preview/Featured_Page.png)
 ##### In this section the viewer will find picks for you section where one will get content suggestion as of their taste, this will keep changing itself as much as the view keeps consuming the content. theres also find popular content part and this one will always show the most watched videos out there by the viewers count.
-![This is an image](/preview/Trending_Page.png)
+![This is an image](preview/Trending_Page.png)
 ##### In this section the viewer will get the most trendings contents, here the admin can place the most highly hyped and highly rated contents to display.
-![This is an image](/preview/Episodes_Page.png)
+![This is an image](preview/Episodes_Page.png)
 ##### And lastly this is the page where the viewer can explore and go through various episodes and seasons or part of selected contents thorougly. (At the end of the page i also have mentioned all the buttons/link needed for brand to mention thier social media link and copyright/term of use conditions). 👍
 
 ###### ©️ TEAM FANTASTIC-FOUR - 2022 CITK
