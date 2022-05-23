@@ -7,7 +7,7 @@
 
 ##### Used tools/languages:
 ##### HTML & CSS - for the main structure
-##### JAVASCRIPT (Jquery & VueJS) - for enabeling some particual features
+##### JAVASCRIPT (Jquery) - for enabeling some particual features
 ##### BOOTSTRAP, TAILWIND etc. custom css frameworks - for styling of the page
 ##### AFFINITY PHOTO, DAVINCI RESOLVE STUDIO - for animation & statics
 ##### GIT Servers - for hosting it temporarily
