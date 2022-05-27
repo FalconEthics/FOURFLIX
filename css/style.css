@@ -8,7 +8,7 @@
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+	background: url('https://i.ibb.co/4sRFn48/background.jpg') no-repeat center center/cover;
 }
 .showcase::after {
 	content: '';
@@ -65,10 +65,14 @@
     color: white;
 }
 .showcase .get-started-container h1{
-    font-size: 3.9rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 4.5rem;
 }
 .showcase .get-started-container .para-1{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 4px;
 }
 .showcase .get-started-container .para-2{
     font-size: 1.2rem;
@@ -164,7 +168,7 @@
     .main-section .section2-container .left-column .box .download-gif{
         width: 3em;
         height: 3em;
-        position: absolute; 
+        position: absolute;
         right: 0;
     }
     .main-section .section2-container .right-column{
@@ -191,7 +195,7 @@
     .main-section .section2-container .left-column img{
         width: 100%;
     }
-    
+
 /* MAIN SECTION ENDS */
 
 /*QUESTION SECTION STARTS*/
@@ -317,7 +321,7 @@ footer h5{
       background-color: black;
   }
 
- 
+
 /* FOOTER SECTION ENDS */
 
 
@@ -331,7 +335,7 @@ footer h5{
       padding-left: 50px;
     }
 }
-  
+
 @media (max-width: 943px){
     /*GET STARTED*/
     .showcase .get-started-container{
