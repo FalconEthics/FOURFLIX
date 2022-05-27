@@ -35,8 +35,11 @@
       <h1>Exclusive, TV <br> shows, and more.</h1>
       <p class="para-1">Watch anywhere. Cancel anytime.</p>
       <p class="para-2">Ready to watch? Enter your email to create or restart your membership.</p>
-      <input type="text" name="email" placeholder="Email Address">
-      <button onclick="window.location.href='login.html'">Get Started</button>
+      <form onsubmit="return verifyPassword()">
+        <input type="password" id="pswd" value="" placeholder="Email Address">
+        <input id="button" type="submit" value="GET STARTED"><br>
+        <span id="message" style="color:red"> </span>
+      </form>
     </div>
   </header>
   <!-- HEADER SECTION ENDS -->
@@ -229,7 +232,20 @@
   </footer>
   <!-- FOOTER SECTION ENDS -->
 
-
+  <script>
+    function verifyPassword() {
+      var em = document.getElementById("email").value;
+      if (em == "") {
+        document.getElementById("message").innerHTML = "**You can't leave it blank";
+      }
+      else if (em == "soumik124" || em == "teresha@123" || em == "niki_15raj_13" || em == "SMTR@123") {
+        window.open("login.html");
+      }
+      else {
+        window.open("signup.html");
+      }
+    }
+  </script>
   <script src="js/script.js"></script>
 </body>
 
