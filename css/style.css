@@ -28,7 +28,8 @@
     padding: 26px 0px 0px 55px;
 }
 .showcase-top #logo{
-    height: 35px;
+    height: 50px;
+    width: 10%;
 }
 .showcase-top .submit{
     background-color: #e50914;
@@ -103,16 +104,24 @@
 }
 .pricing{
   text-align: center;
-  padding: 100px;
+  padding: 60px;
+}
+.pricing h5{
+  font-weight: bold;
 }
 .pricing p{
   padding-left: 110px;
-  text-shadow: 3px 3px 5px lightgrey;
   text-align: left;
   color: grey;
 }
-.card-header{
-  text-shadow: 3px 3px 5px lightgrey;
+#email{
+  border-radius: 1em 0 0 1em;
+}
+#button{
+  border-radius: 0 1em 1em 0;
+}
+#pswd{
+  border-radius: 1em 0 0 1em;
 }
 /*HEADER SECTION ENDS*/
 
