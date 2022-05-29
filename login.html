@@ -24,7 +24,7 @@
     <!-- NAVBAR -->
     <nav class="showcase-top">
       <img id="logo" src="images/logo.png">
-      <button class="submit" type="submit">Sign In</button>
+      <button onclick="window.location.href='index.html'; alert('Please enter your email address below and we will redirect you to the signup page')" class="submit" type="submit">Sign In</button>
       <select>
         <option value="/kw/"> Hindi </option>
         <option value="/kw-en/">English</option>
@@ -32,9 +32,9 @@
     </nav>
     <!-- GET STARTED -->
     <div class="get-started-container">
-      <h1>Exclusive movies, TV <br> shows, and more.</h1>
-      <p class="para-1">Watch anywhere. Cancel anytime.</p>
-      <p class="para-2">Ready to watch? Enter your email to create or restart your membership.</p>
+      <h1>Exclusive Content, videos<br> series, and more.</h1>
+      <p class="para-1">Enjoy anywhere. Study anytime.</p>
+      <p class="para-2">Ready to watch? Enter your password to enjoy your membership.</p>
       <form onsubmit="return verifyPassword()">
         <input type="password" id="pswd" value="" placeholder="Your Password">
         <input id="button" type="submit" value="Log In"><br>
@@ -82,7 +82,7 @@
     <div class="section-container">
       <div class="left-column">
         <h1>Watch everywhere.</h1>
-        <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</h3>
+        <h3>Stream unlimited technical cources and interesting series on your phone, tablet, laptop, and TV without paying more.</h3>
       </div>
       <div class="right-column">
         <img src="images/computer.png">
@@ -98,7 +98,7 @@
       </div>
       <div class="right-column">
         <h1>Create profiles for kids.</h1>
-        <h3>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</h3>
+        <h3>Now get your kids a distraction free environment to learn and develope all the technical skills they want -free with Membership</h3>
       </div>
     </div>
   </section>
@@ -114,9 +114,9 @@
     </button>
     <div id="answer1" class="answer1">
       <p>
-        FourFlix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+        FourFlix is a streaming service that offers a wide variety of contents, shows, movies, videos, documentaries, and more on thousands of internet-connected devices.
         <br><br>
-        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+        You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new educational videos and content are added every week!
       </p>
     </div>
     <br>
@@ -163,7 +163,7 @@
     </button>
     <div id="answer5" class="answer5">
       <p>
-        FourFlix has an extensive library of feature films, documentaries, TV shows, anime, award-winning FourFlix originals, and more. Watch as much as you want, anytime you want.
+        FourFlix has an extensive library of educational videos, documentaries, interesting shows, cources, FourFlix originals, and more. Watch as much as you want, anytime you want.
       </p>
     </div>
     <br>
@@ -174,9 +174,9 @@
     </button>
     <div id="answer6" class="answer6">
       <p>
-        The FourFlix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+        The FourFlix Kids experience is included in your membership to give parents control while kids enjoy learning new skills in their own space.
         <br><br>
-        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+        Kids profiles come with no distraction controls that let you restrict all the other contents that you may feel can distract your kids.
       </p>
     </div>
   </section>
@@ -184,16 +184,14 @@
 
   <!-- EMAIL ADDRESS STARTS-->
   <div class="email-address-container">
-    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-    <input type="text" name="email" placeholder="Email Address">
-    <button onclick="window.location.href='home.html'">Get Started ></button>
+    <p class="para-2">Ready to watch? Enter your password to enjoy your membership.</p>
   </div>
   <!-- EMAIL ADDRESS ENDS-->
 
   <!-- FOOTER SECTION STARTS -->
   <footer>
-    <h5>Questions? Contact us.</h5>
-    <div class="content">
+    <h5 style="padding-bottom: 40px;">©Team Fantastic4 CITK - 2022</h5>
+    <!-- <div class="content">
       <div class="middle box">
         <div><a href="#">FAQ</a></div>
         <div><a href="#">Investor Relations</a></div>
@@ -227,7 +225,7 @@
         <div><a href="#">Media Center</a></div>
         <div><a href="#">Terms of Use</a></div>
         <div><a href="#">Contact Us</a></div>
-      </div>
+      </div> -->
 
   </footer>
   <!-- FOOTER SECTION ENDS -->
@@ -238,11 +236,11 @@
       if (pw == "") {
         document.getElementById("message").innerHTML = "**You can't leave it blank";
       }
-      else if (pw == "soumik124" || pw == "teresha@123" || pw == "niki_15raj_13" || pw == "SMTR@123") {
+      else if (pw == "soumik124" || pw == "teresha@123" || pw == "niki_15raj_13" || pw == "SMTR@123" || pw == "demo") {
         window.open("home.html");
       }
       else {
-        window.open("signup.html");
+        alert("You are entering wrong password");
       }
     }
   </script>
