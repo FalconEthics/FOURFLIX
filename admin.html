@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>FourFlix Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+  <section id="header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="images/logo.png" alt="FourFlix">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#Upload">Upload</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Status">Status</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Users">Users</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section id="tips">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval=1000>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="car-image" src="images/admin/car1.jpg" alt="content-profile"><br>
+          <p><strong>How to Upload</strong></p>
+          <h2>Paste your YouTube video link in the respective area. (make sure not to upload embebbed or private link)</h2>
+        </div>
+        <div class="carousel-item">
+          <img class="car-image" src="images/admin/car2.jpg" alt="plan-profile"><br>
+          <p><strong>How to set Pricing</strong></p>
+          <h2>Write the pricing on the respective sections in Rupees. (The payment portal is still under development)</h2>
+        </div>
+        <div class="carousel-item">
+          <img class="car-image" src="images/admin/car3.jpg" alt="img-profile"><br>
+          <p><strong>How to set Cover Pic</strong></p>
+          <h2>Only upload 1920x1080p resolution pictures in thumbnails. (Upload your image in <a href="https://im.ge/upload">this drive</a> then paste)</h2>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="Upload">
+    <h1>Upload Here!</h1>
+    <h2>Top 3 Slide</h2>
+    <p>Video 1</p>
+    <input type="text" name="Title1-t3" value="" placeholder="Title">
+    <input type="text" name="link1-t3" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail1-t3" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration1-t3" value="" placeholder="Duration">
+    <input type="text" name="Description1-t3" value="" placeholder="Description">
+    <input type="text" name="Creator1-t3" value="" placeholder="Creator">
+    <input type="text" name="Genres1-t3" value="" placeholder="Genres">
+    <input type="text" name="Tags1-t3" value="" placeholder="Tags">
+    <button type="button" name="button1-t3">Save Changes</button><br>
+    <p>Video 2</p>
+    <input type="text" name="Title2-t3" value="" placeholder="Title">
+    <input type="text" name="link2-t3" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail2-t3" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration2-t3" value="" placeholder="Duration">
+    <input type="text" name="Description2-t3" value="" placeholder="Description">
+    <input type="text" name="Creator2-t3" value="" placeholder="Creator">
+    <input type="text" name="Genres2-t3" value="" placeholder="Genres">
+    <input type="text" name="Tags2-t3" value="" placeholder="Tags">
+    <button type="button" name="button2-t3">Save Changes</button><br>
+    <p>Video 3</p>
+    <input type="text" name="Title3-t3" value="" placeholder="Title">
+    <input type="text" name="link3-t3" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail3-t3" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration3-t3" value="" placeholder="Duration">
+    <input type="text" name="Description3-t3" value="" placeholder="Description">
+    <input type="text" name="Creator3-t3" value="" placeholder="Creator">
+    <input type="text" name="Genres3-t3" value="" placeholder="Genres">
+    <input type="text" name="Tags3-t3" value="" placeholder="Tags">
+    <button type="button" name="button3-t3">Save Changes</button><br>
+    <br>
+    <h2>Top Picks for you</h2>
+    <p>Video 1</p>
+    <input type="text" name="Title1-tp" value="" placeholder="Title">
+    <input type="text" name="link1-tp" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail1-tp" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration1-tp" value="" placeholder="Duration">
+    <button type="button" name="button1-tp">Save Changes</button><br>
+    <p>Video 2</p>
+    <input type="text" name="Title2-tp" value="" placeholder="Title">
+    <input type="text" name="link2-tp" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail2-tp" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration2-tp" value="" placeholder="Duration">
+    <button type="button" name="button2-tp">Save Changes</button><br>
+    <p>Video 3</p>
+    <input type="text" name="Title3-tp" value="" placeholder="Title">
+    <input type="text" name="link3-tp" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail3-tp" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration3-tp" value="" placeholder="Duration">
+    <button type="button" name="button3-tp">Save Changes</button><br>
+    <p>Video 4</p>
+    <input type="text" name="Title4-tp" value="" placeholder="Title">
+    <input type="text" name="link4-tp" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail4-tp" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration4-tp" value="" placeholder="Duration">
+    <button type="button" name="button4-tp">Save Changes</button><br>
+    <p>Video 5</p>
+    <input type="text" name="Title5-tp" value="" placeholder="Title">
+    <input type="text" name="link5-tp" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail5-tp" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration5-tp" value="" placeholder="Duration">
+    <button type="button" name="button5-tp">Save Changes</button><br>
+    <br>
+    <h2>Popular Movies</h2>
+    <p>Video 1</p>
+    <input type="text" name="Title1-pm" value="" placeholder="Title">
+    <input type="text" name="link1-pm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail1-pm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration1-pm" value="" placeholder="Duration">
+    <button type="button" name="button1-pm">Save Changes</button><br>
+    <p>Video 2</p>
+    <input type="text" name="Title2-pm" value="" placeholder="Title">
+    <input type="text" name="link2-pm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail2-pm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration2-pm" value="" placeholder="Duration">
+    <button type="button" name="button2-pm">Save Changes</button><br>
+    <p>Video 3</p>
+    <input type="text" name="Title3-pm" value="" placeholder="Title">
+    <input type="text" name="link3-pm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail3-pm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration3-pm" value="" placeholder="Duration">
+    <button type="button" name="button3-pm">Save Changes</button><br>
+    <p>Video 4</p>
+    <input type="text" name="Title4-pm" value="" placeholder="Title">
+    <input type="text" name="link4-pm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail4-pm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration4-pm" value="" placeholder="Duration">
+    <button type="button" name="button4-pm">Save Changes</button><br>
+    <p>Video 5</p>
+    <input type="text" name="Title5-pm" value="" placeholder="Title">
+    <input type="text" name="link5-pm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail5-pm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration5-pm" value="" placeholder="Duration">
+    <button type="button" name="button5-pm">Save Changes</button><br>
+    <br>
+    <h2>Trending Movies</h2>
+    <p>Video 1</p>
+    <input type="text" name="Title1-tm" value="" placeholder="Title">
+    <input type="text" name="link1-tm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail1-tm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration1-tm" value="" placeholder="Duration">
+    <button type="button" name="button1-tm">Save Changes</button><br>
+    <p>Video 2</p>
+    <input type="text" name="Title2-tm" value="" placeholder="Title">
+    <input type="text" name="link2-tm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail2-tm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration2-tm" value="" placeholder="Duration">
+    <button type="button" name="button2-tm">Save Changes</button><br>
+    <p>Video 3</p>
+    <input type="text" name="Title3-tm" value="" placeholder="Title">
+    <input type="text" name="link3-tm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail3-tm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration3-tm" value="" placeholder="Duration">
+    <button type="button" name="button3-tm">Save Changes</button><br>
+    <p>Video 4</p>
+    <input type="text" name="Title4-tm" value="" placeholder="Title">
+    <input type="text" name="link4-tm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail4-tm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration4-tm" value="" placeholder="Duration">
+    <button type="button" name="button4-tm">Save Changes</button><br>
+    <p>Video 5</p>
+    <input type="text" name="Title5-tm" value="" placeholder="Title">
+    <input type="text" name="link5-tm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail5-tm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration5-tm" value="" placeholder="Duration">
+    <button type="button" name="button5-tm">Save Changes</button><br>
+    <p>Video 6</p>
+    <input type="text" name="Title6-tm" value="" placeholder="Title">
+    <input type="text" name="link6-tm" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail6-tm" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration6-tm" value="" placeholder="Duration">
+    <button type="button" name="button6-tm">Save Changes</button><br>
+    <br>
+    <h2>Sugested Content</h2>
+    <p>Video 1</p>
+    <input type="text" name="Title1-sc" value="" placeholder="Title">
+    <input type="text" name="link1-sc" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail1-sc" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration1-sc" value="" placeholder="Duration">
+    <button type="button" name="button1-sc">Save Changes</button><br>
+    <p>Video 2</p>
+    <input type="text" name="Title2-sc" value="" placeholder="Title">
+    <input type="text" name="link2-sc" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail2-sc" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration2-sc" value="" placeholder="Duration">
+    <button type="button" name="button2-sc">Save Changes</button><br>
+    <p>Video 3</p>
+    <input type="text" name="Title3-sc" value="" placeholder="Title">
+    <input type="text" name="link3-sc" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail3-sc" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration3-sc" value="" placeholder="Duration">
+    <button type="button" name="button3-sc">Save Changes</button><br>
+    <p>Video 4</p>
+    <input type="text" name="Title4-sc" value="" placeholder="Title">
+    <input type="text" name="link4-sc" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail4-sc" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration4-sc" value="" placeholder="Duration">
+    <button type="button" name="button4-sc">Save Changes</button><br>
+    <p>Video 5</p>
+    <input type="text" name="Title5-sc" value="" placeholder="Title">
+    <input type="text" name="link5-sc" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail5-sc" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration5-sc" value="" placeholder="Duration">
+    <button type="button" name="button5-sc">Save Changes</button><br>
+    <br>
+    <p>Special Video</p>
+    <input type="text" name="Title-sv" value="" placeholder="Title">
+    <input type="text" name="link-sv" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail-sv" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration-sv" value="" placeholder="Duration">
+    <input type="text" name="Description-sv" value="" placeholder="Description">
+    <button type="button" name="button-sv">Save Changes</button><br>
+    <br>
+    <h2>Playlists</h2>
+    <p>List 1</p>
+    <input type="text" name="Playlist1-Title" value="" placeholder="Playlist Title">
+    <input type="text" name="Playlist1-link" value="" placeholder="Playlist Link">
+    <input type="text" name="Playlist1-Thumbnail" value="" placeholder="Playlist Thumbnail">
+    <input type="text" name="Playlist1-Duration" value="" placeholder="Playlist Duration">
+    <input type="text" name="Playlist1-Description" value="" placeholder="Playlists Description">
+    <input type="text" name="Playlists1-Createdby" value="" placeholder="Playlists Created by">
+    <input type="text" name="Playlists1-Genres" value="" placeholder="Playlists Genres">
+    <input type="text" name="Playlists1-Creators" value="" placeholder="Playlists Creators">
+    <button type="button" name="button-p1">Save Changes</button><br>
+    <br>
+    <ul>
+      <li>
+        <p>Video 1</p>
+        <input type="text" name="Title1-p1" value="" placeholder="Title">
+        <input type="text" name="link1-p1" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail1-p1" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration1-p1" value="" placeholder="Duration">
+        <input type="text" name="Description1-p1" value="" placeholder="Description">
+        <button type="button" name="button1-p1">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 2</p>
+        <input type="text" name="Title2-p1" value="" placeholder="Title">
+        <input type="text" name="link2-p1" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail2-p1" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration2-p1" value="" placeholder="Duration">
+        <input type="text" name="Description2-p1" value="" placeholder="Description">
+        <button type="button" name="button2-p1">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 3</p>
+        <input type="text" name="Title3-p1" value="" placeholder="Title">
+        <input type="text" name="link3-p1" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail3-p1" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration3-p1" value="" placeholder="Duration">
+        <input type="text" name="Description3-p1" value="" placeholder="Description">
+        <button type="button" name="button3-p1">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 4</p>
+        <input type="text" name="Title4-p1" value="" placeholder="Title">
+        <input type="text" name="link4-p1" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail4-p1" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration4-p1" value="" placeholder="Duration">
+        <input type="text" name="Description4-p1" value="" placeholder="Description">
+        <button type="button" name="button4-p1">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 5</p>
+        <input type="text" name="Title5-p1" value="" placeholder="Title">
+        <input type="text" name="link5-p1" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail5-p1" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration5-p1" value="" placeholder="Duration">
+        <input type="text" name="Description5-p1" value="" placeholder="Description">
+        <button type="button" name="button5-p1">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <br>
+    <p>List 2</p>
+    <input type="text" name="Playlist2-Title" value="" placeholder="Playlist Title">
+    <input type="text" name="Playlist2-link" value="" placeholder="Playlist Link">
+    <input type="text" name="Playlist2-Thumbnail" value="" placeholder="Playlist Thumbnail">
+    <input type="text" name="Playlist2-Duration" value="" placeholder="Playlist Duration">
+    <input type="text" name="Playlist2-Description" value="" placeholder="Playlists Description">
+    <input type="text" name="Playlists2-Createdby" value="" placeholder="Playlists Created by">
+    <input type="text" name="Playlists2-Genres" value="" placeholder="Playlists Genres">
+    <input type="text" name="Playlists2-Creators" value="" placeholder="Playlists Creators">
+    <button type="button" name="button-p2">Save Changes</button><br>
+    <br>
+    <ul>
+      <li>
+        <p>Video 1</p>
+        <input type="text" name="Title1-p2" value="" placeholder="Title">
+        <input type="text" name="link1-p2" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail1-p2" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration1-p2" value="" placeholder="Duration">
+        <input type="text" name="Description1-p2" value="" placeholder="Description">
+        <button type="button" name="button1-p2">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 2</p>
+        <input type="text" name="Title2-p2" value="" placeholder="Title">
+        <input type="text" name="link2-p2" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail2-p2" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration2-p2" value="" placeholder="Duration">
+        <input type="text" name="Description2-p2" value="" placeholder="Description">
+        <button type="button" name="button2-p2">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 3</p>
+        <input type="text" name="Title3-p2" value="" placeholder="Title">
+        <input type="text" name="link3-p2" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail3-p2" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration3-p2" value="" placeholder="Duration">
+        <input type="text" name="Description3-p2" value="" placeholder="Description">
+        <button type="button" name="button3-p2">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 4</p>
+        <input type="text" name="Title4-p2" value="" placeholder="Title">
+        <input type="text" name="link4-p2" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail4-p2" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration4-p2" value="" placeholder="Duration">
+        <input type="text" name="Description4-p2" value="" placeholder="Description">
+        <button type="button" name="button4-p2">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 5</p>
+        <input type="text" name="Title5-p2" value="" placeholder="Title">
+        <input type="text" name="link5-p2" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail5-p2" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration5-p2" value="" placeholder="Duration">
+        <input type="text" name="Description5-p2" value="" placeholder="Description">
+        <button type="button" name="button5-p2">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <br>
+    <p>List 3</p>
+    <input type="text" name="Playlist3-Title" value="" placeholder="Playlist Title">
+    <input type="text" name="Playlist3-link" value="" placeholder="Playlist Link">
+    <input type="text" name="Playlist3-Thumbnail" value="" placeholder="Playlist Thumbnail">
+    <input type="text" name="Playlist3-Duration" value="" placeholder="Playlist Duration">
+    <input type="text" name="Playlist3-Description" value="" placeholder="Playlists Description">
+    <input type="text" name="Playlists3-Createdby" value="" placeholder="Playlists Created by">
+    <input type="text" name="Playlists3-Genres" value="" placeholder="Playlists Genres">
+    <input type="text" name="Playlists3-Creators" value="" placeholder="Playlists Creators">
+    <button type="button" name="button-p3">Save Changes</button><br>
+    <br>
+    <ul>
+      <li>
+        <p>Video 1</p>
+        <input type="text" name="Title1-p3" value="" placeholder="Title">
+        <input type="text" name="link1-p3" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail1-p3" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration1-p3" value="" placeholder="Duration">
+        <input type="text" name="Description1-p3" value="" placeholder="Description">
+        <button type="button" name="button1-p3">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 2</p>
+        <input type="text" name="Title2-p3" value="" placeholder="Title">
+        <input type="text" name="link2-p3" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail2-p3" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration2-p3" value="" placeholder="Duration">
+        <input type="text" name="Description2-p3" value="" placeholder="Description">
+        <button type="button" name="button2-p3">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 3</p>
+        <input type="text" name="Title3-p3" value="" placeholder="Title">
+        <input type="text" name="link3-p3" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail3-p3" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration3-p3" value="" placeholder="Duration">
+        <input type="text" name="Description3-p3" value="" placeholder="Description">
+        <button type="button" name="button3-p3">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 4</p>
+        <input type="text" name="Title4-p3" value="" placeholder="Title">
+        <input type="text" name="link4-p3" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail4-p3" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration4-p3" value="" placeholder="Duration">
+        <input type="text" name="Description4-p3" value="" placeholder="Description">
+        <button type="button" name="button4-p3">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 5</p>
+        <input type="text" name="Title5-p3" value="" placeholder="Title">
+        <input type="text" name="link5-p3" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail5-p3" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration5-p3" value="" placeholder="Duration">
+        <input type="text" name="Description5-p3" value="" placeholder="Description">
+        <button type="button" name="button5-p3">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <br>
+    <p>List 4</p>
+    <input type="text" name="Playlist4-Title" value="" placeholder="Playlist Title">
+    <input type="text" name="Playlist4-link" value="" placeholder="Playlist Link">
+    <input type="text" name="Playlist4-Thumbnail" value="" placeholder="Playlist Thumbnail">
+    <input type="text" name="Playlist4-Duration" value="" placeholder="Playlist Duration">
+    <input type="text" name="Playlist4-Description" value="" placeholder="Playlists Description">
+    <input type="text" name="Playlists4-Createdby" value="" placeholder="Playlists Created by">
+    <input type="text" name="Playlists4-Genres" value="" placeholder="Playlists Genres">
+    <input type="text" name="Playlists4-Creators" value="" placeholder="Playlists Creators">
+    <button type="button" name="button-p4">Save Changes</button><br>
+    <br>
+    <ul>
+      <li>
+        <p>Video 1</p>
+        <input type="text" name="Title1-p4" value="" placeholder="Title">
+        <input type="text" name="link1-p4" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail1-p4" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration1-p4" value="" placeholder="Duration">
+        <input type="text" name="Description1-p4" value="" placeholder="Description">
+        <button type="button" name="button1-p4">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 2</p>
+        <input type="text" name="Title2-p4" value="" placeholder="Title">
+        <input type="text" name="link2-p4" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail2-p4" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration2-p4" value="" placeholder="Duration">
+        <input type="text" name="Description2-p4" value="" placeholder="Description">
+        <button type="button" name="button2-41">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 3</p>
+        <input type="text" name="Title3-p4" value="" placeholder="Title">
+        <input type="text" name="link3-p4" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail3-p4" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration3-p4" value="" placeholder="Duration">
+        <input type="text" name="Description3-p4" value="" placeholder="Description">
+        <button type="button" name="button3-p4">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 4</p>
+        <input type="text" name="Title4-p4" value="" placeholder="Title">
+        <input type="text" name="link4-p4" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail4-p4" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration4-p4" value="" placeholder="Duration">
+        <input type="text" name="Description4-p4" value="" placeholder="Description">
+        <button type="button" name="button4-p4">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 5</p>
+        <input type="text" name="Title5-p4" value="" placeholder="Title">
+        <input type="text" name="link5-p4" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail5-p4" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration5-p4" value="" placeholder="Duration">
+        <input type="text" name="Description5-p4" value="" placeholder="Description">
+        <button type="button" name="button5-p4">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <br>
+    <p>List 5</p>
+    <input type="text" name="Playlist5-Title" value="" placeholder="Playlist Title">
+    <input type="text" name="Playlist5-link" value="" placeholder="Playlist Link">
+    <input type="text" name="Playlist5-Thumbnail" value="" placeholder="Playlist Thumbnail">
+    <input type="text" name="Playlist5-Duration" value="" placeholder="Playlist Duration">
+    <input type="text" name="Playlist5-Description" value="" placeholder="Playlists Description">
+    <input type="text" name="Playlists5-Createdby" value="" placeholder="Playlists Created by">
+    <input type="text" name="Playlists5-Genres" value="" placeholder="Playlists Genres">
+    <input type="text" name="Playlists5-Creators" value="" placeholder="Playlists Creators">
+    <button type="button" name="button-p5">Save Changes</button><br>
+    <br>
+    <ul>
+      <li>
+        <p>Video 1</p>
+        <input type="text" name="Title1-p5" value="" placeholder="Title">
+        <input type="text" name="link1-p5" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail1-p5" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration1-p5" value="" placeholder="Duration">
+        <input type="text" name="Description1-p5" value="" placeholder="Description">
+        <button type="button" name="button1-p5">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 2</p>
+        <input type="text" name="Title2-p5" value="" placeholder="Title">
+        <input type="text" name="link2-p5" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail2-p5" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration2-p5" value="" placeholder="Duration">
+        <input type="text" name="Description2-p5" value="" placeholder="Description">
+        <button type="button" name="button2-p5">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 3</p>
+        <input type="text" name="Title3-p5" value="" placeholder="Title">
+        <input type="text" name="link3-p5" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail3-p5" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration3-p5" value="" placeholder="Duration">
+        <input type="text" name="Description3-p5" value="" placeholder="Description">
+        <button type="button" name="button3-p5">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 4</p>
+        <input type="text" name="Title4-p5" value="" placeholder="Title">
+        <input type="text" name="link4-p5" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail4-p5" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration4-p5" value="" placeholder="Duration">
+        <input type="text" name="Description4-p5" value="" placeholder="Description">
+        <button type="button" name="button4-p5">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 5</p>
+        <input type="text" name="Title5-p5" value="" placeholder="Title">
+        <input type="text" name="link5-p5" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail5-p5" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration5-p5" value="" placeholder="Duration">
+        <input type="text" name="Description5-p5" value="" placeholder="Description">
+        <button type="button" name="button5-p5">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <br>
+    <p>List 6</p>
+    <input type="text" name="Playlist6-Title" value="" placeholder="Playlist Title">
+    <input type="text" name="Playlist6-link" value="" placeholder="Playlist Link">
+    <input type="text" name="Playlist6-Thumbnail" value="" placeholder="Playlist Thumbnail">
+    <input type="text" name="Playlist6-Duration" value="" placeholder="Playlist Duration">
+    <input type="text" name="Playlist6-Description" value="" placeholder="Playlists Description">
+    <input type="text" name="Playlists6-Createdby" value="" placeholder="Playlists Created by">
+    <input type="text" name="Playlists6-Genres" value="" placeholder="Playlists Genres">
+    <input type="text" name="Playlists6-Creators" value="" placeholder="Playlists Creators">
+    <button type="button" name="button-p6">Save Changes</button><br>
+    <br>
+    <ul>
+      <li>
+        <p>Video 1</p>
+        <input type="text" name="Title1-p6" value="" placeholder="Title">
+        <input type="text" name="link1-p6" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail1-p6" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration1-p6" value="" placeholder="Duration">
+        <input type="text" name="Description1-p6" value="" placeholder="Description">
+        <button type="button" name="button1-p1">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 2</p>
+        <input type="text" name="Title2-p6" value="" placeholder="Title">
+        <input type="text" name="link2-p6" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail2-p6" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration2-p6" value="" placeholder="Duration">
+        <input type="text" name="Description2-p6" value="" placeholder="Description">
+        <button type="button" name="button2-p6">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 3</p>
+        <input type="text" name="Title3-p6" value="" placeholder="Title">
+        <input type="text" name="link3-p6" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail3-p6" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration3-p6" value="" placeholder="Duration">
+        <input type="text" name="Description3-p6" value="" placeholder="Description">
+        <button type="button" name="button3-p6">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 4</p>
+        <input type="text" name="Title4-p6" value="" placeholder="Title">
+        <input type="text" name="link4-p6" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail4-p6" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration4-p6" value="" placeholder="Duration">
+        <input type="text" name="Description4-p6" value="" placeholder="Description">
+        <button type="button" name="button4-p6">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <p>Video 5</p>
+        <input type="text" name="Title5-p6" value="" placeholder="Title">
+        <input type="text" name="link5-p6" value="" placeholder="YT Link">
+        <input type="text" name="Thumbnail5-p6" value="" placeholder="Thumbnail">
+        <input type="text" name="Duration5-p6" value="" placeholder="Duration">
+        <input type="text" name="Description5-p6" value="" placeholder="Description">
+        <button type="button" name="button5-p6">Save Changes</button><br>
+        <br>
+      </li>
+    </ul>
+    <br>
+    <h2>Recommended for you</h2>
+    <p>Video 1</p>
+    <input type="text" name="Title1-rfy" value="" placeholder="Title">
+    <input type="text" name="link1-rfy" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail1-rfy" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration1-rfy" value="" placeholder="Duration">
+    <button type="button" name="button1-rfy">Save Changes</button><br>
+    <p>Video 2</p>
+    <input type="text" name="Title2-rfy" value="" placeholder="Title">
+    <input type="text" name="link2-rfy" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail2-rfy" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration2-rfy" value="" placeholder="Duration">
+    <button type="button" name="button2-rfy">Save Changes</button><br>
+    <p>Video 3</p>
+    <input type="text" name="Title3-rfy" value="" placeholder="Title">
+    <input type="text" name="link3-rfy" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail3-rfy" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration3-rfy" value="" placeholder="Duration">
+    <button type="button" name="button3-rfy">Save Changes</button><br>
+    <p>Video 4</p>
+    <input type="text" name="Title4-rfy" value="" placeholder="Title">
+    <input type="text" name="link4-rfy" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail4-rfy" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration4-rfy" value="" placeholder="Duration">
+    <button type="button" name="button4-rfy">Save Changes</button><br>
+    <p>Video 5</p>
+    <input type="text" name="Title5-rfy" value="" placeholder="Title">
+    <input type="text" name="link5-rfy" value="" placeholder="YT Link">
+    <input type="text" name="Thumbnail5-rfy" value="" placeholder="Thumbnail">
+    <input type="text" name="Duration5-rfy" value="" placeholder="Duration">
+    <button type="button" name="button5-rfy">Save Changes</button><br>
+    <br>
+  </section>
+
+  <section id="Status">
+    <h1>Site Stats</h1>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">You have total 60 Videos uploaded</h5>
+            <p class="card-text">The default demo content is uploaded right now but you can replace all.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">You have total 5 active users</h5>
+            <p class="card-text">The User database is not connected yet but you can add users manually.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">You have total 3 active subscription plans</h5>
+            <p class="card-text">The payment portal is still under development but one can use the basic plan for free.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
+
+  <section id="Pricing">
+    <h1>Manage Pricing Here</h1>
+    <h2>Write your pricing</h2>
+    <br>
+    <p>Basic Plan</p>
+    <input class="prc1" type="text" name="Price" value="Price in Rs">
+    <input class="prk1-p1" type="text" name="Perk 1" value="Perk 1">
+    <input class="prk2-p1" type="text" name="Perk 2" value="Perk 2">
+    <input class="prk3-p1" type="text" name="Perk 3" value="Perk 3">
+    <input class="prk4-p1" type="text" name="Perk 4" value="Perk 4">
+    <button class="prc1btn "type="button" name="button">Save Changes</button>
+    <br>
+    <p>Standard Plan</p>
+    <input class="prc2" type="text" name="Price" value="Price in Rs">
+    <input class="" type="text" name="Perk 1" value="Perk 1">
+    <input class="" type="text" name="Perk 2" value="Perk 2">
+    <input class="" type="text" name="Perk 3" value="Perk 3">
+    <input class="" type="text" name="Perk 4" value="Perk 4">
+    <button class="prc2btn "type="button" name="button">Save Changes</button>
+    <br>
+    <p>Premium Plan</p>
+    <input class="prc3" type="text" name="Price" value="Price in Rs">
+    <input class="prk1-p1" type="text" name="Perk 1" value="Perk 1">
+    <input class="prk2-p1" type="text" name="Perk 2" value="Perk 2">
+    <input class="prk3-p1" type="text" name="Perk 3" value="Perk 3">
+    <input class="prk4-p1" type="text" name="Perk 4" value="Perk 4">
+    <button class="prc3btn "type="button" name="button">Save Changes</button>
+    <br>
+  </section>
+
+  <section id="Users">
+    <h1>Manage Users</h1>
+    <p>Add user</p>
+    <input class="Usradd" type="text" name="Username" placeholder="Username" value="">
+    <input class="pswadd" type="password" name="Password" placeholder="Password" value="">
+    <button class="addbtn "type="button" name="button">Save Changes</button>
+    <br>
+    <p>Remove user</p>
+    <input class="Usrrm" type="text" name="Username" placeholder="Username" value="">
+    <input class="pswrm" type="password" name="Password" placeholder="Password" value="">
+    <button class="rmbtn "type="button" name="button">Save Changes</button>
+    <br>
+    <br>
+    <h2>~THIS IS NOT THE COMPLETE SITE~</h2>
+    <p>`This site is still under development, what you are seeing on screen is just the very eary stage of it so, stay tuned!!! MORE FEATURES COMING SOON`</p>
+  </section>
+
+  <footer>
+  <h3>©Team Fantastic4 CITK - 2022</h3>
+  </footer>
+
+</html>

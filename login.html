@@ -24,7 +24,7 @@
     <!-- NAVBAR -->
     <nav class="showcase-top">
       <img id="logo" src="images/logo.png">
-      <button onclick="window.location.href='index.html'; alert('Please enter your email address below and we will redirect you to the signup page')" class="submit" type="submit">Sign In</button>
+      <button onclick="alert('Please enter your email address below and we will redirect you to the signup page')" class="submit" type="submit">Sign In</button>
       <select>
         <option value="/kw/"> Hindi </option>
         <option value="/kw-en/">English</option>
@@ -34,10 +34,10 @@
     <div class="get-started-container">
       <h1>Exclusive Content, videos<br> series, and more.</h1>
       <p class="para-1">Enjoy anywhere. Study anytime.</p>
-      <p class="para-2">Ready to watch? Enter your password to enjoy your membership.</p>
+      <p class="para-2">Ready to watch? Enter your email to create or restart your membership.</p>
       <form onsubmit="return verifyPassword()">
-        <input type="password" id="pswd" value="" placeholder="Your Password">
-        <input id="button" type="submit" value="Log In"><br>
+        <input type="password" id="email" value="" placeholder="Email Address">
+        <input id="button" type="submit" value="GET STARTED"><br>
         <span id="message" style="color:red"> </span>
       </form>
     </div>
@@ -184,7 +184,7 @@
 
   <!-- EMAIL ADDRESS STARTS-->
   <div class="email-address-container">
-    <p class="para-2">Ready to watch? Enter your password to enjoy your membership.</p>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
   </div>
   <!-- EMAIL ADDRESS ENDS-->
 
@@ -232,15 +232,16 @@
 
   <script>
     function verifyPassword() {
-      var pw = document.getElementById("pswd").value;
-      if (pw == "") {
+      var em = document.getElementById("email").value;
+      if (em == "") {
         document.getElementById("message").innerHTML = "**You can't leave it blank";
       }
-      else if (pw == "soumik124" || pw == "teresha@123" || pw == "niki_15raj_13" || pw == "SMTR@123" || pw == "demo") {
-        window.open("home.html");
+      else if (em == "mail2soumikdas@gmail.com" || em == "tereshabasumatary5@gmail.com" || em == "gangstarraj123@gmail.com" || em == "merinabaro123@gmail.com" || em == "demo") {
+        window.open("auth.html");
       }
       else {
-        alert("You are entering wrong password");
+        alert("You have not signed up for FourFlix yet!!!! so we created one for you - ");
+        window.open("signup.html");
       }
     }
   </script>

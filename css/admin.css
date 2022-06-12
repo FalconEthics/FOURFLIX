@@ -1,0 +1,69 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.logo{
+  width: 100px;
+}
+.container{
+  margin-left: 15px;
+}
+.navbar-nav{
+  margin-right: 15px;
+}
+#tips{
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #8b97a6;
+}
+.car-image{
+  border-radius: 1em;
+  margin-bottom: 40px;
+}
+p{
+  font-weight: bold;
+  font-size: 20px;
+}
+h2{
+  margin-top: 18px;
+}
+#Upload{
+  text-align: center;
+  text-shadow: 2px 2px 8px #8b97a6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1{
+  font-weight: bold;
+    text-shadow: 1px 1px 4px #8b97a6;
+}
+ul{
+  text-align: left;
+}
+#Status{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #8b97a6;
+}
+#Pricing{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#Users{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #8b97a6;
+}
+footer{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #8b97a6;
+}

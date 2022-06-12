@@ -24,7 +24,7 @@
     <!-- NAVBAR -->
     <nav class="showcase-top">
       <img id="logo" src="images/logo.png">
-      <button onclick="alert('Please enter your email address below and we will redirect you to the signup page')" class="submit" type="submit">Sign In</button>
+      <button onclick="window.location.href='login.html'; alert('Please enter your email address below and we will redirect you to the signup page')" class="submit" type="submit">Sign In</button>
       <select>
         <option value="/kw/"> Hindi </option>
         <option value="/kw-en/">English</option>
@@ -34,10 +34,11 @@
     <div class="get-started-container">
       <h1>Exclusive Content, videos<br> series, and more.</h1>
       <p class="para-1">Enjoy anywhere. Study anytime.</p>
-      <p class="para-2">Ready to watch? Enter your email to create or restart your membership.</p>
+      <p class="para-2">Ready to watch? Enter your password to enjoy your membership.</p>
       <form onsubmit="return verifyPassword()">
-        <button id="button" type="button" name="button" style="border-radius: 1em 0 0 1em; margin-right: 10px; padding-right: 10px;" onclick="window.location.href='admin.html'">ADMIN LOGIN</button>
-        <button id="button" type="button" name="button" onclick="window.location.href='login.html'">USER SIGNUP</button><br>
+        <input type="password" id="pswd" value="" placeholder="Your Password">
+        <input id="button" type="submit" value="Log In"><br>
+        <span id="message" style="color:red"> </span>
       </form>
     </div>
   </header>
@@ -183,7 +184,7 @@
 
   <!-- EMAIL ADDRESS STARTS-->
   <div class="email-address-container">
-    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <p class="para-2">Ready to watch? Enter your password to enjoy your membership.</p>
   </div>
   <!-- EMAIL ADDRESS ENDS-->
 
@@ -228,6 +229,22 @@
 
   </footer>
   <!-- FOOTER SECTION ENDS -->
+
+  <script>
+    function verifyPassword() {
+      var pw = document.getElementById("pswd").value;
+      if (pw == "") {
+        document.getElementById("message").innerHTML = "**You can't leave it blank";
+      }
+      else if (pw == "soumik124" || pw == "teresha@123" || pw == "niki_15raj_13" || pw == "SMTR@123" || pw == "demo") {
+        window.open("home.html");
+      }
+      else {
+        alert("You are entering wrong password");
+      }
+    }
+  </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
