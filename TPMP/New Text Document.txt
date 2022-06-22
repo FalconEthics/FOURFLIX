@@ -1,0 +1,74 @@
+Favourite:
+https://www.youtube.com/embed/xk4_1vDrzzo?autoplay=1 : JAVA
+https://www.youtube.com/embed/_uQrJ0TkZlc?autoplay=1 : Python
+https://www.youtube.com/embed/ZxKM3DCV2kE?autoplay=1 : Full-Stack Web-Development 
+https://www.youtube.com/embed/oZfDp3SvrOY?autoplay=1 : Cyber Security
+https://www.youtube.com/embed/dz7Ntp7KQGA?autoplay=1 : Ethical Hacking
+Popular:
+https://www.youtube.com/embed/LmEcyQnfpDA?autoplay=1 : Drone Programming
+https://www.youtube.com/embed/c5HAwKX-suM?autoplay=1 : DBMS
+https://www.youtube.com/embed/1dWCqjhvF58?autoplay=1 : SQL
+https://www.youtube.com/embed/Ulp1Kimblg0?autoplay=1 : Swift
+Top-10:
+https://www.youtube.com/embed/vLnPwxZdW4Y?autoplay=1 : C++
+https://www.youtube.com/embed/zJ-LqeX_fLU?autoplay=1 : Arduino
+https://www.youtube.com/embed/DFbhpQpqyuo?autoplay=1 : Android SDK
+https://www.youtube.com/embed/IPvYjXCsTg8?autoplay=1 : Computer Networking
+https://www.youtube.com/embed/UWekjor55pc?autoplay=1 : 8085
+https://www.youtube.com/embed/apGV9Kg7ics?autoplay=1 : Git and GitHub
+suggested:
+https://www.youtube.com/embed/iXZ-_uF9m7A?autoplay=1 : Pentium
+https://www.youtube.com/embed/iu-tJoXIPOc?autoplay=1 : ARM
+https://www.youtube.com/embed/CB3pEMl9TOA?autoplay=1 : Strapi
+https://www.youtube.com/embed/DZKOunP-WLQ?autoplay=1 : Next.JS
+tvthriller
+https://www.youtube.com/embed/L4_jarMnB0c?autoplay=1 : Tailwind 
+https://www.youtube.com/embed/iceDmLzf1ME?autoplay=1 : Computer Hardware
+https://www.youtube.com/embed/mK60ROb2RKI?autoplay=1 : Fusion360
+https://www.youtube.com/embed/TuLxsvK4svQ?autoplay=1 : GUI
+https://www.youtube.com/embed/suyrOOQkfGs?autoplay=1 : CITK VLOG
+Paralax:
+https://www.youtube.com/embed/Bua0ET-0sdQ?autoplay=1 : Merina dance
+
+EP:
+Unreal Engine 4:
+ep1: https://www.youtube.com/embed/_a6kcSP8R1Y?autoplay=1
+ep2: https://www.youtube.com/embed/3jM_VLzRqlE?autoplay=1
+ep3: https://www.youtube.com/embed/otOPdOHWqWY?autoplay=1
+ep4: https://www.youtube.com/embed/UIycCZl4lYE?autoplay=1
+ep5: https://www.youtube.com/embed/xYuIDFzKaF4?autoplay=1
+ 
+Artificial Intelligence:
+ep1: https://www.youtube.com/embed/uB3i-qV6VdM?autoplay=1
+ep2: https://www.youtube.com/embed/E5jVBqe59EE?autoplay=1
+ep3: https://www.youtube.com/embed/gZpUcsB9TFc?autoplay=1
+ep4: https://www.youtube.com/embed/qul0f79gxGs?autoplay=1
+ep5: https://www.youtube.com/embed/f8luGFRtshY?autoplay=1
+
+DevOps Bootcamp:
+ep1: https://www.youtube.com/embed/ZbG0c87wcM8?autoplay=1
+ep2: https://www.youtube.com/embed/KVBON1lA9N8?autoplay=1
+ep3: https://www.youtube.com/embed/i-osqorJAxI?autoplay=1
+ep4: https://www.youtube.com/embed/c4XFlGYwSMA?autoplay=1
+ep5: https://www.youtube.com/embed/Rdc31plYOLM?autoplay=1
+
+DSA:
+ep1: https://www.youtube.com/embed/_HRA37X8N_Q?autoplay=1
+ep2: https://www.youtube.com/embed/f6UU7V3szVw?autoplay=1
+ep3: https://youtube.com/watch?v=enI_KyGLYPo?autoplay=1
+ep4: https://www.youtube.com/embed/M2uO2nMT0Bk?autoplay=1
+ep5: https://www.youtube.com/embed/ymgnIIclCF0?autoplay=1
+
+Kota Factory:
+https://youtu.be/JWbnEt3xuos
+https://youtu.be/zW-fcAGzEew
+https://youtu.be/gIwgSpEg6ZY
+https://youtu.be/SaCgKXQiXGE
+https://youtu.be/pNZQ6msbOvM
+
+TVF Aspirants:
+https://www.youtube.com/watch?v=0Kl1ucZuSZ8
+https://www.youtube.com/watch?v=7xdt3z85hu4
+https://www.youtube.com/watch?v=WeWXC_ivl5s
+https://www.youtube.com/watch?v=MYQB8SNy8Gc
+https://www.youtube.com/watch?v=5H8xQF0PwvA

@@ -11,10 +11,12 @@ body{
   margin-right: 15px;
 }
 #tips{
+  background: url('https://i.ibb.co/1zqkzys/wp3416332.jpg') no-repeat center center/cover;
   text-align: center;
   padding-top: 120px;
   padding-bottom: 40px;
-  background-color: #8b97a6;
+  color: white;
+
 }
 .car-image{
   border-radius: 1em;
@@ -32,6 +34,10 @@ h2{
   text-shadow: 2px 2px 8px #8b97a6;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+#Upload p{
+  text-shadow: 2px 2px 8px #fff;
+  background-color: #8b97a6;
 }
 h1{
   font-weight: bold;
