@@ -61,16 +61,6 @@ Login Id & PASS: demo
 
 FourFlix is a content sharing platform where people can share their own content and make it discoverable to their audience. The core concept of FourFlix is to provide individual content paging for every uploader while staying server-free/low maintenance and make it stand out from the crowd being a discrete entity. The concept of OTT platforms or Digital Content Libraries isn’t new but our approach to it is. Unlike other video libraries available in the market like YouTube or VIMO it doesn’t mix all the contents uploaded to it instead it makes separate pages for each and every content creator, so that audience of one content creator will only get the videos uploaded by that individual creator only. FourFlix also provides some rich features of top OTT platforms like NETFLIX, PRIVE VIDEO, etc. with ease whereas on those platforms only big registered production houses and companies can post. In this way both the Content Creator and Content Consumer can enjoy the goods of both sides and cons of none. [Initially it was my final year project when i was doing my diploma in computer science engineering from Central Institute of Technology India] 
 
-
-
-## Gallery- 
-
-[![Product Name Screen Shot][product-screenshot2]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
-
-[![Product Name Screen Shot][product-screenshot3]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
-
-[![Product Name Screen Shot][product-screenshot4]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -185,11 +175,11 @@ Project Link: [https://github.com/FalconEthics/OTT-Platform-FOURFLIX](https://gi
 
 [linkedin-url]: https://www.linkedin.com/in/soumik-das-profile/
 
-[product-screenshot]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_03-44-30AM-000_CustomizedView26681168714.png
-[product-screenshot2]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-16-58AM-000_CustomizedView13304029920.png
+[product-screenshot]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Screenshot.png
+<!-- [product-screenshot2]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-16-58AM-000_CustomizedView13304029920.png
 [product-screenshot3]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-18-29AM-000_CustomizedView9151492485.png
 [product-screenshot4]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-22-00AM-000_CustomizedView12173695879.png
-[product-components]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Components.png
+[product-components]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Components.png -->
 
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
