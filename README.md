@@ -155,6 +155,12 @@ Project Link: [https://github.com/FalconEthics/OTT-Platform-FOURFLIX](https://gi
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+## Acknowledgments
+
+[Initially it was my final year project when i was doing my diploma in computer science engineering from Central Institute of Technology India]
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/FalconEthics/OTT-Platform-FOURFLIX.svg?style=for-the-badge
