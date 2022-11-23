@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX">
-    <img src="./images/logo.png" alt="Logo" width="110" height="80">
+    <img src="./images/logo.png" alt="Logo" width="150" height="80">
   </a>
 
   <h3 align="center">FOURFLIX - OTT Platform</h3>
