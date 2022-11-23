@@ -1,31 +1,194 @@
-# **FOURFLIX**
-## An OTT platform
+<a name="readme-top"></a>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![GNU License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-### **CITK Computer Science Diploma Final Year Project submersion by TEAM FANTASTIC-FOUR: SOUMIK DAS, TERESA BASUMATERY, MERINA BARO AND RAJ DEBNATH (Kokrajhar, INDIA)**
 
-##### So, this is a prototype model of a OTT-Platform where people can enjoy their favorite digital content and at also pay for it. Before starting to work on it we gave a lot of time on the thinking process to decide and finalize the project concept because we wanted our project to be a lil-bit different from what others are doing and at the same time we wanted it to be eye-catchy so, we came up with this idea to make a OTT platform. For now we only have made the main(home) page of the site but still this is a full-fledged working and responsive web-site where one can play and watch the featured content in it, we didn't had any data(digital content) to showcase so we have embebbed our very own youtube videos for demonstration purposes. While making it's frontend we took a lot of inspiration form Netflix so this may feel a lil bit similar. Although most of the buttons are working there are a few buttons that we haven't assigned to anything because we didn't had anything to link to it for e.g. The shows & movies section but even all those buttons can be used in future, even if those are not working we haven't kept those as only placeholders they are actual buttons so just by changing the tag ' href="#" ' to your desired destination will get the work done and make those buttons usable. To make the web-site so much graphically awesome we had to use some custom css also, so other than the bootstrap css, navbars & etc. we also have saved the custom one each one separately inside the css folder with link to the license from their respective copyright owners. The main structure and color scheme of our website is written on the index.html, main.js & style.css but to use some custom navbar from Bootstrap and to enable some particular features we had to use some additional JavaScript which are also separately placed on the js folder. Other than that all the thumbnails and statics used by us on the webpage is available on the images folder. Aswedon't have any server for now,weam currently hosting it on the free servers provided by GitHub so some of the personalized features will not be working but one can easily enable all the below mentioned features just by connecting a database server to it. So, that's allwehad to say as a short brief of our project - FOURFLIX,weknow there's still a lot of work remaining in it and for surewewill be spending a few more months in it to make all of it frontend and backend work done so that one make use of it but till then we hope you will like this small prototype of mine. Thank You.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX">
+    <img src="logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-##### Used tools/languages:
-##### HTML & CSS - for the main structure
-##### JAVASCRIPT (jQuery) - for enabling some particular features
-##### BOOTSTRAP, TAILWIND etc. custom css frameworks - for styling of the page
-##### AFFINITY PHOTO, DAVINCI RESOLVE STUDIO - for animation & staticsus
-##### GIT Servers - for hosting it temporarily
+  <h3 align="center">FOURFLIX - OTT Platform</h3>
 
-##### TEAM MEMBERS:
-##### Soumik Das (Front-End Developer)
-##### TERESA BASUMATERY (Back-End Developer)
-##### MERINA BARO (Graphic Designer)
-##### RAJ DEBNATH (SEO Specialist)
+  <p align="center">
+    A NEXT GEN OTT PLATFORM!
+    <br />
+    <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">View Demo</a>
+    ·
+    <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues">Request Featur</a>
+  </p>
+</div>
 
-##### Here's some of the key features of our website:
-![This is an image](preview/Home_Page.png)
-##### This the home landing page that will appear at first when viewer enters the link. This will contain a few sliders where the most featured contents can be displayed by the admin and viewers will also find all the setting, profile, subscription, search button and etc. interactive things.
-![This is an image](preview/Featured_Page.png)
-##### In this section the viewer will find picks for you section where one will get content suggestion as of their taste, this will keep changing itself as much as the view keeps consuming the content. there's also find popular content part and this one will always show the most watched videos out there by the viewers count.
-![This is an image](preview/Trending_Page.png)
-##### In this section the viewer will get the most trending's contents, here the admin can place the most highly hyped and highly rated contents to display.
-![This is an image](preview/Episodes_Page.png)
-##### And lastly this is the page where the viewer can explore and go through various episodes and seasons or part of selected contents thoroughly. (At the end of the pagewealso have mentioned all the buttons/link needed for brand to mention their social media link and copyright/term of use conditions). 👍
 
-###### ©️ TEAM FANTASTIC-FOUR - 2022 CITK
+
+TABLE OF CONTENTS
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
+
+FourFlix is a content sharing platform where people can share their own content and make it discoverable to their audience. The core concept of FourFlix is to provide individual content paging for every uploader while staying server-free/low maintenance and make it stand out from the crowd being a discrete entity. The concept of OTT platforms or Digital Content Libraries isn’t new but our approach to it is. Unlike other video libraries available in the market like YouTube or VIMO it doesn’t mix all the contents uploaded to it instead it makes separate pages for each and every content creator, so that audience of one content creator will only get the videos uploaded by that individual creator only. FourFlix also provides some rich features of top OTT platforms like NETFLIX, PRIVE VIDEO, etc. with ease whereas on those platforms only big registered production houses and companies can post. In this way both the Content Creator and Content Consumer can enjoy the goods of both sides and cons of none. [Initially it was my final year project when i was doing my diploma in computer science engineering from Central Institute of Technology India] 
+
+
+
+## Gallery- 
+
+[![Product Name Screen Shot][product-screenshot2]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
+
+[![Product Name Screen Shot][product-screenshot3]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
+
+[![Product Name Screen Shot][product-screenshot4]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+Here are all the components used in the build.
+
+* [![HTML][Html.com]][Html-url] - Base
+* [![CSS][Css.com]][Css-url] - Styling
+* [![JS][Es6.com]][Es6-url] - Logic
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url] - Late Impimentation
+* [![JQuery][JQuery.com]][JQuery-url] Late Impimentation
+* [![Affinity][Affinity.com]][Affinity-url] - GFX
+* [![Davinci][Davinci.com]][Davinci-url] - Animations
+* [![Git][Git.com]][Git-url] - Deployment
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+FOUFLIX is an OTT Platform where people can upload videos and share it with their respective audience, unlike other video libraries available in the market like YouTube or VIMO it doesn’t mix all the contents uploaded to it instead it makes separate pages for each and every content creator, so that audience of one content creator will only get the videos uploaded by that individual creator only. Every uploader have their discrete page of FOURFLIX and users may switch links as their wish whenever they want. It helps individual content creator to make their content more discoverable and standout from the crowd. With FOURFLIX one can customize their page as much as they want and the way they want their contents to be displayed, with google ads plugin, creators can also monetize their page and make income from it from the very first day of start whereas in platforms like YouTube one can start earning only after compiling their criteria which takes decent amount of time. FourFlix also provides some rich features of top OTT platforms like NETFLIX, PRIVE VIDEO, etc. with ease whereas on those platforms only big registered production houses and companies can post. Because of its high customizability and less complexity, it can serve the content to the viewers without any need of high-end servers. Being server-free is one of the core features of FourFlix, it takes user input of content through its admin page and embedded’s the link to its page in such a way that although the viewer will be consuming the content through FOUFLIX it will be using the resources of the drive that the link is shared from.
+
+For more indepth info abou my project, please refer to my project report that was submitted by our group in the final semester of my istitute [Documentation](https://github.com/FalconEthics/OTT-Platform-FOURFLIX/blob/main/ProjectReport.pdf)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+When i started this project in the stageof my web development carrier, I didn't new any proper javascript or css framwork other then a few libraies like Jquery and bootstrap and i was focusing on learning the frontend part mainly but now when i have all the required skills to build it , i don't have enough time to spent in it so here's the roadmap that i will be following and will be working on to complete this project in near future:
+
+- [x] Base Structure
+- [x] Netflix's Front-End
+- [ ] React.js Framework
+- [ ] Replace Vannila css and Bootstrap with Tailwind CSS
+- [ ] Build the Backend
+    - [ ] API intergration
+    - [ ] Proper Deployment with payment gateway and user database
+
+See the [open issues](https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issuess) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GNU License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Soumik Das - [Twitter](https://twitter.com/SoumikD95642409) / [INSTA](https://www.instagram.com/itz.raaj.das/) / [Linkedlin](https://www.linkedin.com/in/soumik-das-profile/)
+
+Project Link: [https://github.com/FalconEthics/OTT-Platform-FOURFLIX](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/FalconEthics/OTT-Platform-FOURFLIX.svg?style=for-the-badge
+[contributors-url]: https://github.com/FalconEthics/OTT-Platform-FOURFLIX/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/FalconEthics/OTT-Platform-FOURFLIX.svg?style=for-the-badge
+[forks-url]: https://github.com/FalconEthics/OTT-Platform-FOURFLIX/network/members
+[stars-shield]: https://img.shields.io/github/stars/FalconEthics/OTT-Platform-FOURFLIX.svg?style=for-the-badge
+[stars-url]: https://github.com/FalconEthics/OTT-Platform-FOURFLIX/stargazers
+[issues-shield]: https://img.shields.io/github/issues/FalconEthics/OTT-Platform-FOURFLIX.svg?style=for-the-badge
+
+[issues-url]: https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues
+[license-shield]: https://img.shields.io/github/license/FalconEthics/OTT-Platform-FOURFLIX.svg?style=for-the-badge
+
+[license-url]: https://github.com/FalconEthics/OTT-Platform-FOURFLIX/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://www.linkedin.com/in/soumik-das-profile/
+
+[product-screenshot]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_03-44-30AM-000_CustomizedView26681168714.png
+[product-screenshot2]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-16-58AM-000_CustomizedView13304029920.png
+[product-screenshot3]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-18-29AM-000_CustomizedView9151492485.png
+[product-screenshot4]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Trinetro_Drone_2022-Sep-03_04-22-00AM-000_CustomizedView12173695879.png
+[product-components]: https://raw.githubusercontent.com/FalconEthics/OTT-Platform-FOURFLIX/main/Components.png
+
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com
+[Es6.com]: https://img.shields.io/badge/ECMAScript6-7BDCB5?style=for-the-badge&logo=javascript&logoColor=white
+[Es6-url]: https://es6.io/
+[Html.com]: https://img.shields.io/badge/HTML5-8ED1FC?style=for-the-badge&logo=html&logoColor=white
+[Html-url]: https://html.com/html5/
+[Css.com]: https://img.shields.io/badge/Custom_CSS-8ED1FC?style=for-the-badge&logo=css&logoColor=white
+[Css-url]: http://css.com/
+[Affinity.com]: https://img.shields.io/badge/Affinity_Designer-9900EF?style=for-the-badge&logo=adobe&logoColor=white
+[Affinity-url]: https://affinity.serif.com/en-us/
+[Davinci.com]: https://img.shields.io/badge/Davinci_Resolve_Studio-0693E3?style=for-the-badge&logo=D&logoColor=white
+[Davinci-url]: https://www.blackmagicdesign.com/products/davinciresolve/
+[Git.com]: https://img.shields.io/badge/Github_Pages-FF6900?style=for-the-badge&logo=git&logoColor=white
+[Git-url]: https://pages.github.com/
