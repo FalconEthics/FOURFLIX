@@ -33,7 +33,10 @@
 ## <a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">Open Site</a>
 Login Id & PASS: demo
 
-## TABLE OF CONTENTS
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -51,11 +54,6 @@ Login Id & PASS: demo
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/FalconEthics/OTT-Platform-FOURFLIX)
 
