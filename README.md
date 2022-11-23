@@ -159,7 +159,7 @@ Project Link: [https://github.com/FalconEthics/OTT-Platform-FOURFLIX](https://gi
 
 ## Acknowledgments
 
-[Initially it was my final year project when i was doing my diploma in computer science engineering from Central Institute of Technology India]
+ -Initially it was my final year project when i was doing my diploma in computer science engineering from Central Institute of Technology India
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
