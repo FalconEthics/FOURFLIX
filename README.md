@@ -17,7 +17,7 @@
   <h3 align="center">FOURFLIX - OTT Platform</h3>
 
   <p align="center">
-    A NEXT GEN OTT PLATFORM!
+    Create your own ott platform in just a few clicks!
     <br />
     <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX"><strong>Explore the docs »</strong></a>
     <br />
