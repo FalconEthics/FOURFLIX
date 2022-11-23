@@ -30,8 +30,8 @@
   </p>
 </div>
 
-## (Id & PASS = demo)
-<a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">Open Site</a>
+## <a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">Open Site</a>
+Login Id & PASS: demo
 
 TABLE OF CONTENTS
 <details>
@@ -106,11 +106,11 @@ For more indepth info abou my project, please refer to my project report that wa
 <!-- ROADMAP -->
 ## Roadmap
 
-I started this project in the very early stage of my web development carrier, I didn't new any proper javascript or css framwork other then a few libraies like Jquery and bootstrap and i was focusing on learning the frontend part mainly but now when i have all the required skills to build it , i don't have enough time to spent in it so here's the roadmap that i will be following and will be working on to complete this project in near future:
+I started this project in the very early stage of my web development carrier, I didn't knew any proper javascript or css framwork other then a few libraies like Jquery and bootstrap and i was focusing on learning the frontend part mainly but now when i have all the required skills to build it , i don't have enough time to spent in it so here's the roadmap that i will be following and will be working on to complete this project in near future:
 
 - [x] Base Structure
-- [x] Netflix's Front-End
-- [ ] React.js Framework
+- [x] Netflix inspired colour scheme & Front-End
+- [ ] Implement React.js Framework
 - [ ] Replace Vannila css and Bootstrap with Tailwind CSS
 - [ ] Build the Backend
     - [ ] API intergration
