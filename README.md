@@ -97,7 +97,7 @@ Here are all the components used in the build.
 
 FOUFLIX is an OTT Platform where people can upload videos and share it with their respective audience, unlike other video libraries available in the market like YouTube or VIMO it doesn’t mix all the contents uploaded to it instead it makes separate pages for each and every content creator, so that audience of one content creator will only get the videos uploaded by that individual creator only. Every uploader have their discrete page of FOURFLIX and users may switch links as their wish whenever they want. It helps individual content creator to make their content more discoverable and standout from the crowd. With FOURFLIX one can customize their page as much as they want and the way they want their contents to be displayed, with google ads plugin, creators can also monetize their page and make income from it from the very first day of start whereas in platforms like YouTube one can start earning only after compiling their criteria which takes decent amount of time. FourFlix also provides some rich features of top OTT platforms like NETFLIX, PRIVE VIDEO, etc. with ease whereas on those platforms only big registered production houses and companies can post. Because of its high customizability and less complexity, it can serve the content to the viewers without any need of high-end servers. Being server-free is one of the core features of FourFlix, it takes user input of content through its admin page and embedded’s the link to its page in such a way that although the viewer will be consuming the content through FOUFLIX it will be using the resources of the drive that the link is shared from.
 
-For more indepth info abou my project, please refer to my project report that was submitted by our group in the final semester of my istitute [Documentation](https://github.com/FalconEthics/OTT-Platform-FOURFLIX/blob/main/ProjectReport.pdf)_
+For more indepth info abou my project, please refer to my project report that was submitted by our group in the final semester of my istitute [Documentation](https://github.com/FalconEthics/OTT-Platform-FOURFLIX/blob/main/ProjectReport.pdf)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +106,7 @@ For more indepth info abou my project, please refer to my project report that wa
 <!-- ROADMAP -->
 ## Roadmap
 
-When i started this project in the stageof my web development carrier, I didn't new any proper javascript or css framwork other then a few libraies like Jquery and bootstrap and i was focusing on learning the frontend part mainly but now when i have all the required skills to build it , i don't have enough time to spent in it so here's the roadmap that i will be following and will be working on to complete this project in near future:
+I started this project in the very early stage of my web development carrier, I didn't new any proper javascript or css framwork other then a few libraies like Jquery and bootstrap and i was focusing on learning the frontend part mainly but now when i have all the required skills to build it , i don't have enough time to spent in it so here's the roadmap that i will be following and will be working on to complete this project in near future:
 
 - [x] Base Structure
 - [x] Netflix's Front-End
