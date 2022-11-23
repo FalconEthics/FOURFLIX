@@ -26,11 +26,12 @@
     ·
     <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues">Report Bug</a>
     ·
-    <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues">Request Featur</a>
+    <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues">Request Feature</a>
   </p>
 </div>
 
-
+## (Id & PASS = demo)
+<a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">Open Site</a>
 
 TABLE OF CONTENTS
 <details>
@@ -182,9 +183,9 @@ Project Link: [https://github.com/FalconEthics/OTT-Platform-FOURFLIX](https://gi
 [JQuery-url]: https://jquery.com
 [Es6.com]: https://img.shields.io/badge/ECMAScript6-7BDCB5?style=for-the-badge&logo=javascript&logoColor=white
 [Es6-url]: https://es6.io/
-[Html.com]: https://img.shields.io/badge/HTML5-8ED1FC?style=for-the-badge&logo=html&logoColor=white
+[Html.com]: https://img.shields.io/badge/HTML5-8ED1FC?style=for-the-badge&logo=H&logoColor=white
 [Html-url]: https://html.com/html5/
-[Css.com]: https://img.shields.io/badge/Custom_CSS-8ED1FC?style=for-the-badge&logo=css&logoColor=white
+[Css.com]: https://img.shields.io/badge/Custom_CSS-8ED1FC?style=for-the-badge&logo=C&logoColor=white
 [Css-url]: http://css.com/
 [Affinity.com]: https://img.shields.io/badge/Affinity_Designer-9900EF?style=for-the-badge&logo=adobe&logoColor=white
 [Affinity-url]: https://affinity.serif.com/en-us/
