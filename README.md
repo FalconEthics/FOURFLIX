@@ -22,7 +22,7 @@
     <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">View Demo</a>
+    <a href="https://fourflix.vercel.app/login.html">View Demo</a>
     ·
     <a href="https://github.com/FalconEthics/OTT-Platform-FOURFLIX/issues">Report Bug</a>
     ·
@@ -30,7 +30,7 @@
   </p>
 </div>
 
-## <a href="https://falconethics.github.io/OTT-Platform-FOURFLIX/login.html">Open Site</a>
+## <a href="https://fourflix.vercel.app/login.html">Open Site</a>
 Login Id & PASS: demo
 
 
